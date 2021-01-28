@@ -83,9 +83,7 @@ if __name__ == '__main__':
           epochs=100,
           verbose=1,
           validation_data = validation_generator,
-          validation_steps=8,
-          use_multiprocessing=True,
-          workers=12)
+          validation_steps=8)
 
     import matplotlib.pyplot as plt
 
